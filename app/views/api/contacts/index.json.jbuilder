@@ -1,9 +1,10 @@
 
 json.array! @products.each do |product|
   
-  json.id product.id
-  json.name product.name
-  json.phone product.phone
-  json.email product.email
+  json.id @contact.id
+  json.first_name @contact.first_name
+  json.last_name @contact.last_name
+  json.phone @contact.phone_number
+  json.email @contact.email
   
 end
