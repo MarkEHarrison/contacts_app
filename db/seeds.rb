@@ -1,0 +1,1 @@
+contact = Contact.create(name: "Mark", lastname: "Harrison", number: "415444444")
